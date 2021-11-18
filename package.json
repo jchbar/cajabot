@@ -1,0 +1,24 @@
+{
+  "name": "cajabot",
+  "version": "1.0.0",
+  "description": "backend cajabot",
+  "main": "index.js",
+  "author": "",
+  "engines": {
+    "node": "16.9.1",
+    "npm": "8.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@wppconnect-team/wppconnect": "^1.10.1",
+    "axios": "^0.24.0",
+    "dialogflow": "^1.2.0",
+    "dialogflow-fulfillment": "^0.6.1",
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
+  }
+}
